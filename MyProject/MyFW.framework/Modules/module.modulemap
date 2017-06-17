@@ -1,0 +1,10 @@
+framework module MyFW {
+  umbrella header "MyFW.h"
+
+  export *
+  module * { export * }
+}
+
+module MyFW.Swift {
+    header "MyFW-Swift.h"
+}
